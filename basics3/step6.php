@@ -1,11 +1,11 @@
 <?php
-for ($row = 0; $row < 7; $row++) {
-    for ($column = 0; $column <= 7; $column++) {
-        if ((($row == 0 or $row == 6) and $column >= 0 and $column <= 6) or $row + $column == 6)
-            echo " *";
-        else
-            echo "  ";
+    for ($i=7; $i>=0; $i--){
+        for ($j=0; $j<=7; $j++){
+            if ((($i == 0 || $i == 6) && $j >= 0 && $j <= 6) || $i+$j==6)
+            echo "*";    
+            else  
+            echo " ";     
+        }
+        echo "\n";
     }
-    echo "\n";
-}
 ?>
