@@ -6,5 +6,5 @@ function replaceWords($strings){
     $newString = str_replace($search, $firstArray, $strings);
     return str_replace($firstArray, $secondArray, $newString); 
 }
-echo replaceWords("This string shows how to replace Python with PHP and PHP with Python") , "\n";
+echo replaceWords("Python with PHP and PHP with Python") , "\n";
 ?>
