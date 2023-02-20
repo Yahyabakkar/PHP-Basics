@@ -7,5 +7,5 @@ function check_palindrome($string)
 	  return 0;
 }
 echo check_palindrome('madam')."\n";
-echo check_palindrome('yahya')."\n";
+echo check_palindrome('anything')."\n";
 ?>
